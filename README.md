@@ -28,5 +28,6 @@ Route search - O(m * log(n)) where m - number of cameras that have detected thie
 * Tests
 * Validation
 * Caching
+* Code could be refactored
 
 In real-world app it would also be usefull to analyzae how many city creation and how many route search requests are made. This would help us to understand how our application is used. Once we do this we might want to tweak something, e.g. while preparing this solution I was assuming that find-route requests would be much more frequent than create-city requests.

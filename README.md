@@ -13,12 +13,13 @@ python app.py
 
 Once map of the city is submitted, compute Floyd–Warshall algorithm in order to save 'intermediary' matrix which would allow us to compute routes between any two nodes in the city with ease.
 
-SQLite was chosen as a simple persitance mechanism.
+SQLite was chosen as a simple persistence mechanism.
 
 
 ### Estimated complexity
 
 City creation - O(n^3) where n - amount of nodes in the city
+
 Route search - O(m * log(n)) where m - number of cameras that have detected thief, n - amount of nodes (although, I am not sure)
 
 
